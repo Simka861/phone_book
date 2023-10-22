@@ -64,7 +64,7 @@ class Main(tk.Frame):
         btn_edit_dialog.pack(side=tk.LEFT)                          # Размещение кнопку в окне, указывавая гду она(кнопка) будет находиться
 
 
-        self.delete_img = tk.PhotoImage(file="./img/delete.png")    # Загрузили изображение кнопки обновления в переменнную
+        self.delete_img = tk.PhotoImage(file="./img/delete.png")    # Загрузили изображение кнопки удаления в переменнную
         # Создали кнопку
         # 1 - привязали к панели инструментов
         # 2- установили цвет фона
@@ -81,7 +81,7 @@ class Main(tk.Frame):
         btn_delete.pack(side=tk.LEFT)                               # Размещение кнопку в окне, указывавая гду она(кнопка) будет находиться
 
 
-        self.search_img = tk.PhotoImage(file="./img/search.png")    # Загрузили изображение кнопки обновления в переменнную
+        self.search_img = tk.PhotoImage(file="./img/search.png")    # Загрузили изображение кнопки поиска в переменнную
         # Создали кнопку
         # 1 - привязали к панели инструментов
         # 2- установили цвет фона
